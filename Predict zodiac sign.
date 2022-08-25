@@ -1,0 +1,48 @@
+#include<stdio.h>
+
+int main()
+{
+    int m, d;
+         
+        printf("*****Input only Numbers****\n");
+        printf("Please input your Birthmonth:");
+         scanf("%d", &m);
+        printf("Pleade input the Day:");
+        scanf("%d",&d);
+    if((m == 1 && d <= 20) || (m == 2 && d <= 19)){
+    printf("Your zodiac sign is Aquarius");
+    
+    }else if((m == 2 && d <= 20) || (m == 3 && d <= 20)){
+    printf("Your zodiac sign is Pisces");
+    }else if((m == 3 && d <= 21) || (m == 4 && d <= 20)){
+    printf("Your zodiac sign is Aries");
+    }else if((m == 4 && d <= 21) || (m == 5 && d <= 20)){
+    printf("Your Zodiax sign is Taurus");
+    }else if((m == 5 && d <= 21) || (m == 6 && d <= 20)){
+    printf("Your Zodiax sign is Gemini");
+    }else if((m == 6 && d <= 21) || (m == 7 && d <= 22)){
+    printf("Your Zodiax sign is Cancer");
+    } else if((m == 7 && d <= 23) || (m == 8 && d <= 22)){
+    printf("Your Zodiax sign is Leo");
+    }else if((m == 8 && d <= 23) || (m == 9 && d <= 22)){
+    printf("Your Zodiax sign is Virgo");
+    }else if((m == 9 && d <= 23) || (m == 10 && d <= 22)){
+    printf("Your Zodiax sign is Libra");
+    }else if((m == 10 && d <= 23) || (m == 11 && d <= 22)){
+    printf("Your Zodiax sign is Scorpio");
+    }else if((m == 11 && d <= 23) || (m == 12 && d <= 21)){
+    printf("Your Zodiax sign is Sagittarius");
+    }else if((m == 12 && d <= 22) || (m == 1 && d <= 19)){
+    printf("Your Zodiax sign is Capricorn");
+    }else{ printf("Only input Numbers!");
+    
+    }
+    
+    
+    
+    return 0;
+}
+
+
+
+
