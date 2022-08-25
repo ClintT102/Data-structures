@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+{
+    int num1, num2;
+    float divide;
+    printf("Please input the First number:");
+   scanf("%d", &num1);
+printf("Please input the Second Number:");
+scanf("%d", &num2);
+ divide = (float)num1/num2;
+printf("addition:%d\n",num1+num2);
+printf("Subtract:%d\n", num1-num2);
+printf("Multiply:%d\n", num1*num2);
+printf("Divide:%f\n", divide);
+     return 0;
+}
