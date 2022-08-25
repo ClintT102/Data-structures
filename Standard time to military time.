@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+     int t, m, s;
+   char i[5];
+     printf("Input Hour:");
+    scanf("%d", &t);
+    printf("Input Minutes:");
+    scanf("%d", &m);
+    printf("Input Seconds:");
+    scanf("%d", &s);
+       printf("Am or Pm:");
+    scanf("%s", &i);
+   if((strcmp(i,"Pm")==0) && (t != 0) && (t != 12)){
+    printf("Military time: %02d:%02d:%02d %s", t+12, m, s, i);
+}else if((strcmp(i,"Am")==0) && (t == 0) && (t == 12)){
+     printf("Military time: %02d:%02d:%02d %s", t, m, s, i);
+
+}else{ printf("Please put the required input<3");
+}
+
+
+    
+    
+    return 0;
+}
